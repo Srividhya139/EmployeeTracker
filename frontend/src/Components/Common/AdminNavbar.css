@@ -1,0 +1,85 @@
+.admin-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+.admin-navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.admin-logo-icon {
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
+
+.admin-navbar-menu {
+    display: flex;
+    gap: 30px;
+}
+
+.admin-navbar-menu a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.admin-navbar-menu a:hover {
+    color: black;
+    transform: scale(1.05);
+}
+
+.admin-navbar-menu .admin-active {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+.admin-navbar-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.admin-icon {
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.admin-icon:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.notification-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+}

@@ -1,0 +1,143 @@
+/* Admin Panel Wrapper */
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  overflow-y: auto;
+}
+
+/* Main content container below the Navbar */
+.admin-employee-list {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  box-sizing: border-box;
+  margin: 0 auto; /* Center the content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/* Title */
+.admin-employee-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+}
+
+/* Search Input */
+.admin-search-field {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 auto 20px auto;
+  outline: none;
+  display: block;
+  transition: border-color 0.3s;
+}
+
+.admin-search-field:focus {
+  border-color: black;
+}
+
+/* Employee Table */
+.admin-employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin-employee-table th,
+.admin-employee-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-employee-table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+
+/* View Button */
+.admin-view-btn {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.admin-view-btn:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
+/* Pagination Controls */
+.admin-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.admin-pagination-btn {
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  border-radius: 5px;
+}
+
+.admin-pagination-btn:hover {
+  color: black;
+  transform: scale(1.05);
+}
+
+.admin-pagination-btn:disabled {
+  cursor: not-allowed;
+}
+
+.admin-pagination-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Export Buttons */
+.admin-export-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.admin-export-btn {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.admin-export-btn:hover {
+  background: #333;
+  transform: scale(1.05);
+}

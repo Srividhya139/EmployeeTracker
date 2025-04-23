@@ -1,0 +1,86 @@
+.manage-leave-container {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fefefe;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #333;
+  }
+  
+  .no-leaves {
+    text-align: center;
+    color: #666;
+  }
+  
+  .leave-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+  }
+  
+  .leave-table th,
+  .leave-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .leave-table th {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .status {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .status.approved {
+    color: green;
+  }
+  
+  .status.rejected {
+    color: red;
+  }
+  
+  .status.pending {
+    color: orange;
+  }
+  
+  .approve-btn,
+  .decline-btn {
+    padding: 6px 12px;
+    margin-right: 6px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .approve-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .decline-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .approve-btn:hover {
+    background-color: #218838;
+  }
+  
+  .decline-btn:hover {
+    background-color: #c82333;
+  }
+  

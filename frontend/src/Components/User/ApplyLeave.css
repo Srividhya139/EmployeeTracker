@@ -1,0 +1,83 @@
+.apply-leave-container {
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 40px 30px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #000000;
+}
+
+.leave-form {
+  width: 100%;
+}
+
+.leave-form .form-group {
+  margin-bottom: 20px;
+}
+
+.leave-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.leave-form input,
+.leave-form select,
+.leave-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  box-sizing: border-box;
+}
+
+.leave-form input:focus,
+.leave-form select:focus,
+.leave-form textarea:focus {
+  border-color: #000000;
+  outline: none;
+}
+
+.submit-btn {
+  width: 150px;
+  padding: 10px 0;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px auto 0 auto; /* Centers horizontally */
+  display: block;
+  transition: background-color 0.2s ease;
+}
+
+
+.submit-btn:hover {
+  background-color: #333333;
+}
+
+.message {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #000000;
+}
